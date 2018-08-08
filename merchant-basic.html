@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>经营信息</title>
+</head>
+<body onload="load()">
+  <a href="javascript:alert(123)" onclick="alert(456)" id="testbtn">测试123</a>
+  <script>
+    function load(){
+      setTimeout(function(){
+        document.getElementById('testbtn').html('testbtn');
+
+      },2000)
+}
+  </script>
+</body>
+</html>
