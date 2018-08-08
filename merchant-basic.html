@@ -7,6 +7,7 @@
 <body onload="load()">
   <a href="javascript:alert(123)" onclick="alert(456)" id="testbtn">测试123</a>
   <script>
+    alert(456)
     function load(){
       setTimeout(function(){
         document.getElementById('testbtn').html('testbtn');
